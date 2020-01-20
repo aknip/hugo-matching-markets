@@ -1,5 +1,5 @@
 ---
-title: "LoveIt Theme Preview and Documentation"
+title: "LoveIt Theme Preview and Documentation - updated"
 date: 2019-08-25T16:22:42+08:00
 lastmod: 2019-08-25T16:22:42+08:00
 draft: false
