@@ -2,7 +2,7 @@
 title: "My First Post To Netlify"
 date: 2020-01-19T21:22:02+01:00
 lastmod: 2020-01-19T21:22:02+01:00
-draft: true
+draft: false
 description: ""
 show_in_homepage: true
 show_description: false
