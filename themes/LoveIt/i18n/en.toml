@@ -46,7 +46,8 @@ other = "Theme - "
 other = "Table of Contents"
 
 [publish]
-other = "published on"
+other = " "
+#other = "published on"
 
 [included]
 other = "included in"

@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
 staticDir = ["static", "../assets/others"]               # static directories
 
 [author]                                              #### Author Info
-  name = "XXXX"
+  name = "aknip"
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
@@ -57,13 +57,14 @@ staticDir = ["static", "../assets/others"]               # static directories
     url = "about"
     weight = 4
 
-  [[menu.main]]
-    identifier = "zh"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "https://hugo-loveit-zh.netlify.com"
-    weight = 5
+#  [[menu.main]]
+#    identifier = "zh"
+#    name = '<i class="fas fa-language fa-fw"></i>'
+#    url = "https://hugo-loveit-zh.netlify.com"
+#    weight = 5
 
 [params]
+  dateFormatToUse = "02.01.2006"
   version = "5.x"                                        # LoveIt theme version
   description = "LoveIt Theme Demo"                      # site description
   keywords = ["XXXX", "Theme", "Hugo"]                   # site keywords
@@ -77,9 +78,9 @@ staticDir = ["static", "../assets/others"]               # static directories
   socialShare = true                                     # whether to show social share links in post page
 
                                                       #### Footer CopyRight Info
-  since = 2018                                           # Site creation time
+  since = 2020                                           # Site creation time
   icp = ''                                               # ICP info only in China (HTML format is allowed)
-  license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  license= ''
                                                          # license info (HTML format is allowed)
   gitRepo = ""                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
 
@@ -117,13 +118,13 @@ staticDir = ["static", "../assets/others"]               # static directories
     email = ""
 
   [params.social]                                        # Social Info in home page
-    GitHub = "xxxx"
+    #GitHub = "xxxx"
     Linkedin = "xxxx"
-    Twitter = "xxxx"
+    #Twitter = "xxxx"
     #Instagram = "xxxx"
-    #Email = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Email = "xxxx"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
