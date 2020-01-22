@@ -17,6 +17,7 @@
         <h2 class="home-description">
             {{ $id := md5 . | printf "tp-%s" }}
             <div id={{ printf "r%s" $id }} hidden=true>{{ . | safeHTML }}</div>
+            <div>Meine persönliche FAQ über Märkte, Marketing und Maschinen...</div>
             <div id={{ $id }} class="typeit"></div>
             {{ with $.Scratch.Get "typeitMap" }}
                 {{ $.Scratch.Set "typeitMap" (dict $id (slice $id) | merge .) }}

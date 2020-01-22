@@ -1,6 +1,7 @@
 baseURL = "https://hugo102.netlify.com/"
-languageCode = "en"                                      # website language
-defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
+languageCode = "de"                                      # website language
+defaultContentLanguage = "de"                            # [de, en, zh, ...] determines which i18n file to use
+#defaultContentLanguageInSubdir = "true"
 title = "LoveIt Theme"                                   # website title
 theme = "LoveIt"                                         # theme
 enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
@@ -20,6 +21,17 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 staticDir = ["static", "../assets/others"]               # static directories
+
+#[languages]
+#    [languages.en]
+#        languageName = "English"
+#        languageCode = "en-us"
+#        url = "/en/"
+#
+#    [languages.de]
+#        languageName = "German"
+#        languageCode = "de-de"
+#        url = "/de/"
 
 [author]                                              #### Author Info
   name = "aknip"
@@ -72,8 +84,8 @@ staticDir = ["static", "../assets/others"]               # static directories
                                                       #### Home Page Info
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = "images/avatar.png"                           # URL of avatar shown in home page
-  subtitle = "My Clean, Elegant but Advanced Hugo Theme"  # subtitle shown in home page
+  #avatar = "images/avatar.png"                           # URL of avatar shown in home page
+  subtitle = "(let’s call it „FAQ“ – and pronounce it „faːk“)"  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 

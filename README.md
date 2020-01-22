@@ -7,11 +7,14 @@ check on https://hugo102.netlify.com/
 Multilanguage:
 - deleted folder 'zh'
 - deactivated language switch in config.toml: [menu] [[menu.main]] identifier = "zh" (line 60)
+- added themes/LoveIt/i18n/de.toml
+- set default language to 'de' in config.toml
 
 config.toml
 - [params] dateFormatToUse = "02.01.2006"
+- [params] avatar => deleted, no avatar pic on homepage
 
-themes/LoveIt/i18n/en.toml
+themes/LoveIt/i18n/de.toml
 - deleted text "published on" in post list (line 60)
 
 Theme modifications:
