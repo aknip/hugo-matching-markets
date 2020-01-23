@@ -5,8 +5,7 @@
 
 
 
-
-// Container: Left margin, width...
+// Container, General Desing: Left margin, width...
 
 .post-warp {
   //margin: 0 auto;
@@ -87,15 +86,23 @@ body {
 
 
 
-// Intro Text
+// Homepage Intro Text
 
 .home-intro {
   .home-description {
-    font-size: 1rem;
+    font-size: 1.2rem;
     //padding: .4rem;
     padding: 0;
-    color: #fff;
+    color: black;
   }
+}
+
+.dark-theme .home-intro .home-description {
+    color: #fff;
+}
+
+.typeit {
+	font-size: 0.7rem;
 }
 
 .home-intro {
@@ -113,7 +120,9 @@ body {
 }
 
 
-// Post list
+
+
+// Homepage Post list
 
 .post-warp .post time {
     font-size: 0.6rem;
