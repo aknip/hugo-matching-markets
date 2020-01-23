@@ -62,7 +62,11 @@ body {
     background-size: cover;
     backface-visibility: hidden;
     background-position: center right;
-    opacity: 0.1;
+    opacity: 0.4;
+}
+
+.dark-theme .background {
+	opacity: 0.1;
 }
 
 .homepage-background {
@@ -71,7 +75,10 @@ body {
 
 @media (min-width: 900px) {
 	.background {
-		opacity: 0.1;
+		opacity: 0.8;
+	}
+	.dark-theme .background {
+		opacity: 0.4;
 	}
 	.homepage-background {
     	background-image: url(/images/homepage.png);
