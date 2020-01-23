@@ -13,13 +13,15 @@
         </div>
     {{ end }}
     <!-- end featured_image-->
+
+    <time datetime={{ $publish_date }}>{{ $publish_date }}</time>&nbsp;
     <h1 class="post-title post-list-title" itemprop="name headline">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </h1>
 
     <div class="post-meta">
-        <a class="author" href="{{.Site.BaseURL }}" rel="author"><i class="fas fa-user-circle fa-fw"></i>{{ $author }}&nbsp;</a>
-        {{ T "publish" }}&nbsp;<time datetime={{ $publish_date }}>{{ $publish_date }}</time>&nbsp;
+        <!-- <a class="author" href="{{.Site.BaseURL }}" rel="author"><i class="fas fa-user-circle fa-fw"></i>{{ $author }}&nbsp;</a>
+        {{ T "publish" }}&nbsp;<time datetime={{ $publish_date }}>{{ $publish_date }}</time>&nbsp;-->
         {{ with .Params.categories -}}
             <span class="post-category">
                 {{ T "included" }}

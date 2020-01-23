@@ -17,6 +17,8 @@
         <h2 class="home-description">
             {{ $id := md5 . | printf "tp-%s" }}
             <div id={{ printf "r%s" $id }} hidden=true>{{ . | safeHTML }}</div>
+            <!-- <div class="fakplus-textlogo">faːk<span style="color:red">x</span></div> -->
+            <div class="fakplus-textlogo">faq<span style="color:red">plus</span></div>
             <div>Meine persönliche FAQ über Märkte, Marketing und Maschinen...</div>
             <div id={{ $id }} class="typeit"></div>
             {{ with $.Scratch.Get "typeitMap" }}
@@ -27,7 +29,10 @@
         </h2>
     {{ end }}
 
+    <!--
     <div class="home-social-links">
         {{ partial "home/social.html" . }}
     </div>
+    -->
+
 </div>

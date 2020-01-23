@@ -18,6 +18,7 @@ themes/LoveIt/i18n/de.toml
 - deleted text "published on" in post list (line 60)
 
 Theme modifications:
+- Dark Theme als default: <body class="dark-theme"> (themes/LoveIt/layouts/_default/baseof.html, line 12)
 - Post list (themes/LoveIt/layouts/_default/summary.html)
 -- Removed author from list (line 21)
 - Footer (themes/LoveIt/layouts/partials/footer.html)

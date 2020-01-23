@@ -11,19 +11,30 @@
     </head>
     <body>
         <script>
-            window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            if (window.localStorage ) {
+                if (window.localStorage.getItem('theme') === 'light') {
+                    window.isDark = false        
+                }
+                else {
+                    window.isDark = true   
+                    window.localStorage.setItem('theme', 'dark');
+                }
+            }
+            // window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
             window.isDark && document.body.classList.add('dark-theme');
         </script>
+        <div class="background homepage-background"></div>
         <div class="wrapper">
             {{ partial "header.html" . -}}
             <main class="main">
                 <div class="container">
+
                     {{ block "content" . }}{{ end -}}
                 </div>
             </main>
             {{ partial "footer.html" . -}}
             {{ partial "scripts.html" . -}}
         </div>
-        <a href="#" class="dynamic-to-top" id="dynamic-to-top" data-scroll><span>&nbsp;</span></a>
+        <a href="#" class="dynamic-to-top" id="dynamic-to-top" data-scroll><span>&nbsp;</span></a> 
     </body>
 </html>

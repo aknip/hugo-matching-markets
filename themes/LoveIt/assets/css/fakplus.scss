@@ -1,0 +1,136 @@
+// ==============================
+// fak.plus styles
+// ==============================
+
+
+
+
+
+// Container: Left margin, width...
+
+.post-warp {
+  //margin: 0 auto;
+  margin: 0 5.6rem;
+}
+
+@media only screen and (max-width: 1080px) {
+  .post-warp {
+    margin: 0 1.6rem;
+  }
+}
+
+
+body {
+    color: #a9a9b3;
+    background-color: #e9e9e9;
+}
+
+
+
+// Header / Logo / Navigation
+
+.navbar {
+    background-color: transparent;
+}
+
+.dark-theme .navbar {
+    //background-color: #252627;
+    background-color: transparent;
+}
+
+.dark-theme .navbar-mobile .navbar-container {
+    //background: #292a2d;
+    background-color: transparent;
+}
+
+.logofakx {
+	width:18px;
+	height:18px;
+	margin-left:6px;
+}
+
+
+
+// Homepage, Logo
+.background {
+	z-index: -10000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    backface-visibility: hidden;
+    background-position: center right;
+    opacity: 0.1;
+}
+
+.homepage-background {
+    background-image: url(/images/homepage-mobile.png);
+}
+
+@media (min-width: 900px) {
+	.background {
+		opacity: 0.1;
+	}
+	.homepage-background {
+    	background-image: url(/images/homepage.png);
+	}
+}
+
+
+
+// Intro Text
+
+.home-intro {
+  .home-description {
+    font-size: 1rem;
+    //padding: .4rem;
+    padding: 0;
+    color: #fff;
+  }
+}
+
+.home-intro {
+    transform: translateY(25vh);
+    text-align: left;
+}
+
+.home-description {
+	margin-top: 100px; 
+	margin-bottom: 50px
+}
+
+.fakplus-textlogo {
+	font-weight: 1000;
+}
+
+
+// Post list
+
+.post-warp .post time {
+    font-size: 0.6rem;
+    line-height: 0.6rem;
+}
+
+.post-warp .post .post-list-title {
+	margin-top: 1.5rem!important;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.post-warp .post-content p {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-bottom: 0;
+}
+
+.post-warp .post .post-footer {
+	margin-top: 0;
+    a { 
+      margin-top: 0;
+      font-size: .7rem!important;
+    }
+}
+
+
