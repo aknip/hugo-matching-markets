@@ -48,6 +48,10 @@ body {
 	margin-left:6px;
 }
 
+.navbar {
+    font-size: 13px
+}
+
 
 
 // Homepage, Logo
@@ -69,7 +73,7 @@ body {
 }
 
 .homepage-background {
-    background-image: url(/images/homepage-mobile.png);
+    background-image: url(/images/homepage-mobile-99.png);
 }
 
 @media (min-width: 900px) {
@@ -80,7 +84,7 @@ body {
 		opacity: 0.4;
 	}
 	.homepage-background {
-    	background-image: url(/images/homepage.png);
+    	background-image: url(/images/homepage-99.png);
 	}
 }
 
