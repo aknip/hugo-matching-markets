@@ -8,7 +8,9 @@ draft: false
 
 It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt/) and [KeepIt Theme](https://github.com/liuzc/LeaveIt/).
 
-![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png)
+
+![Ansgar Knipschild](/images/aknip-dither2.png)
+
 
 ### Features
 

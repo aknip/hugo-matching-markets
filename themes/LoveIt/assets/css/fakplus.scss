@@ -24,6 +24,9 @@ body {
     background-color: #e9e9e9;
 }
 
+.post-title {
+    text-align: left!important;
+}
 
 
 // Header / Logo / Navigation
@@ -65,15 +68,16 @@ body {
     background-size: cover;
     backface-visibility: hidden;
     background-position: center right;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 .dark-theme .background {
-	opacity: 0.1;
+	opacity: 0.4;
 }
 
 .homepage-background {
-    background-image: url(/images/homepage-mobile-99.png);
+    //background-image: url(/images/homepage-mobile-99.png);
+    background-image: url(/images/matching-markets-mobile.png);
 }
 
 @media (min-width: 900px) {
@@ -81,10 +85,11 @@ body {
 		opacity: 0.8;
 	}
 	.dark-theme .background {
-		opacity: 0.4;
+		opacity: 0.6;
 	}
 	.homepage-background {
-    	background-image: url(/images/homepage-99.png);
+    	// background-image: url(/images/homepage-99.png);
+        background-image: url(/images/matching-markets.png);
 	}
 }
 
@@ -121,6 +126,7 @@ body {
 
 .fakplus-textlogo {
 	font-weight: 1000;
+    font-size: 1.0rem;
 }
 
 
@@ -153,4 +159,11 @@ body {
     }
 }
 
+
+
+// About page
+
+.post-warp .post-content img {
+    display: inline;
+}
 
