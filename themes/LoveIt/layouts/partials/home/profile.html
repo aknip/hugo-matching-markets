@@ -30,7 +30,7 @@
     {{ end }}
 
     <!-- List of posts - variant 1 -->
-    {{ range .Site.RegularPages.ByPublishDate.Reverse }}
+    {{ range .Site.Pages.ByPublishDate.Reverse }}
         {{ if eq .Type "posts"}}
             {{ if eq .Params.show_pinned true}}
                 <article class="post" style="border-bottom: none" itemscope itemtype="http://schema.org/Article">

@@ -1,9 +1,9 @@
 ---
-title: "Warum Märkte, Matching und Marketing? Über diesen Blog. (Pinned)"
+title: "Über diesen Blog"
 date: 2019-01-19T21:22:18+01:00
 lastmod: 2019-01-19T21:22:18+01:00
 draft: false
-description: "Pinned text Hier der Anlesertext des Posts. Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. "
+description: "Warum Matching Markets? Und was hat das mit Marketing zu tun? Dies ist der persönliche Blog von Pinned text Hier der Anlesertext des Posts. Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Matching? Markets? Marketing?  Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. "
 show_in_homepage: true
 show_description: true
 show_pinned: true
