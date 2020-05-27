@@ -21,6 +21,8 @@ Create Post
 
 
 
+## Configuration and Theme settings
+
 Multilanguage:
 - deleted folder 'zh'
 - deactivated language switch in config.toml: [menu] [[menu.main]] identifier = "zh" (line 60)
@@ -41,3 +43,4 @@ Theme modifications:
 -- Removed author from list (line 21)
 - Footer (themes/LoveIt/layouts/partials/footer.html)
 -- Changed copyright line (line 3 ff.)
+- Pinned posts (themes/LoveIt/layouts/partials/home/profile.html) line 32 ff.

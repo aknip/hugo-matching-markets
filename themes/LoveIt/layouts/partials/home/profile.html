@@ -29,6 +29,43 @@
         </h2>
     {{ end }}
 
+    <!-- List of posts - variant 1 -->
+    {{ range .Site.RegularPages.ByPublishDate.Reverse }}
+        {{ if eq .Type "posts"}}
+            {{ if eq .Params.show_pinned true}}
+                <article class="post" style="border-bottom: none" itemscope itemtype="http://schema.org/Article">
+                    <!-- <time datetime={{ .PublishDate }}>{{ .PublishDate.Format ("02.01.2006")  }}</time>&nbsp; -->
+                    <h1 class="post-title post-list-title" itemprop="name headline">
+                        <a href="{{ .Permalink }}" style="color:white">{{ .Title }}</a>
+                    </h1>
+                    <div class="post-content">
+                        {{ if .Params.show_description }}
+                            <p style="color:white">{{ .Params.description }}</p>
+                        {{ end }}
+                    </div>
+                </article>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+    <!-- List of posts - variant 2, from layouts/index.html -->
+    <!--
+    {{ $paginator := where .Site.RegularPages "Type" "posts" -}}
+    {{ $paginator = where $paginator "Params.show_in_homepage" "!=" false -}}
+    {{ with .Site.Params.home_paginate -}}
+        {{ $paginator = $.Paginate $paginator . -}}
+    {{ else -}}
+        {{ $paginator = $.Paginate $paginator -}}
+    {{ end -}}
+    {{ range $paginator.Pages -}} 
+        <p>
+          <a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </p>
+    {{ end }}
+    -->
+
+
+
     <!--
     <div class="home-social-links">
         {{ partial "home/social.html" . }}
