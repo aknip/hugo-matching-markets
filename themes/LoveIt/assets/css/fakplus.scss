@@ -111,7 +111,7 @@ body {
 }
 
 .typeit {
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 
 .home-intro {
@@ -140,14 +140,14 @@ body {
 }
 
 .post-warp .post .post-list-title {
-	margin-top: 0.8rem!important;
-    font-size: 1rem;
-    line-height: 1rem;
+	margin-top: 1rem!important;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
 }
 
 .post-warp .post-content p {
-    font-size: 0.8rem;
-    line-height: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
     margin-bottom: 0;
 }
 
@@ -157,6 +157,13 @@ body {
       margin-top: 0;
       font-size: .7rem!important;
     }
+}
+
+
+// All lists
+
+.post-warp .post .post-content {
+    max-height: none;
 }
 
 

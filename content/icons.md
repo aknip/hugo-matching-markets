@@ -1,17 +1,17 @@
 ---
-title: "About LoveIt"
+title: "Icons"
 date: 2019-08-02T11:04:49+08:00
 draft: false
 ---
 
-[LoveIt :(far fa-heart):](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://dillonzq.com).
 
-It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt/) and [KeepIt Theme](https://github.com/liuzc/LeaveIt/).
+### Documentation
 
-![Hugo Theme LoveIt](/images/aknip-dither1.png)
+https://hugoloveit.com/theme-documentation-content/#fontawesome
 
-### Features
+https://fontawesome.com/icons?d=gallery
 
+&nbsp;
 #### Performance and SEO
 
 * :(fas fa-rocket): Optimized for performance: 99/100 on mobile and 100/100 on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
@@ -56,24 +56,3 @@ It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt/) a
 * :(fas fa-arrow-up): Dynamic to top support by [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 * ...
 
-### License
-
-LoveIt is licensed under the MIT license.
-
-Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
-
-Thanks to the authors of following resources included in the theme:
-
-* [Font Awesome](https://fontawesome.com/)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [lazysizes](https://github.com/aFarkas/lazysizes)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [TypeIt](https://typeitjs.com/)
-* [jQuery](https://github.com/jquery/jquery)
-* [jQuery.countdown](https://github.com/hilios/jQuery.countdown)
-* [Katex](https://katex.org/)
-* [mermaid](https://github.com/knsv/mermaid)
-* [APlayer](https://github.com/MoePlayer/APlayer)
-* [MetingJS](https://github.com/metowolf/MetingJS)
-* [Gitalk](https://github.com/gitalk/gitalk)
-* [Valine](https://valine.js.org/)

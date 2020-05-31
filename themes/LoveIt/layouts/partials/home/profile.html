@@ -18,7 +18,7 @@
             {{ $id := md5 . | printf "tp-%s" }}
             <div id={{ printf "r%s" $id }} hidden=true>{{ . | safeHTML }}</div>
             <!-- <div class="fakplus-textlogo">faːk<span style="color:red">x</span></div> -->
-            <div class="fakplus-textlogo">matching<span style="color:red">markets</span></div>
+            <div class="fakplus-textlogo">matching<span style="color:#bf2e2d">markets</span></div>
             <div>„It's a match!“</div>
             <div id={{ $id }} class="typeit"></div>
             {{ with $.Scratch.Get "typeitMap" }}
@@ -36,11 +36,11 @@
                 <article class="post" style="border-bottom: none" itemscope itemtype="http://schema.org/Article">
                     <!-- <time datetime={{ .PublishDate }}>{{ .PublishDate.Format ("02.01.2006")  }}</time>&nbsp; -->
                     <h1 class="post-title post-list-title" itemprop="name headline">
-                        <a href="{{ .Permalink }}" style="color:white">{{ .Title }}</a>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
                     </h1>
                     <div class="post-content">
                         {{ if .Params.show_description }}
-                            <p style="color:white">{{ .Params.description }}</p>
+                            {{ .Content }}
                         {{ end }}
                     </div>
                 </article>

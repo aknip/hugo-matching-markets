@@ -34,7 +34,7 @@ staticDir = ["static", "../assets/others"]               # static directories
 #        url = "/de/"
 
 [author]                                              #### Author Info
-  name = "aknip"
+  name = "" #aknip
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
@@ -63,15 +63,15 @@ staticDir = ["static", "../assets/others"]               # static directories
     url = "tags"
     weight = 3
 
-  [[menu.main]]
-    identifier = "categories"
-    name = "CATEGORIES"
-    url = "categories"
-    weight = 4
+#  [[menu.main]]
+#    identifier = "categories"
+#    name = "KATEGORIEN"
+#    url = "categories"
+#    weight = 4
 
   [[menu.main]]
     identifier = "about"
-    name = "ABOUT"
+    name = "ÜBER DIESES BLOG"
     url = "about"
     weight = 5
 
