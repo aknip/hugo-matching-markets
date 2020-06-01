@@ -1,5 +1,5 @@
 ---
-title: "Über diesen Blog!!"
+title: "Über diesen Blog"
 date: 2019-01-19T21:22:18+01:00
 lastmod: 2019-01-19T21:22:18+01:00
 draft: false
