@@ -9,7 +9,7 @@ show_description: true
 show_pinned: true
 license: ''
 
-tags: ['yoyo']
+tags: []
 categories: []
 
 featured_image: ''
@@ -21,11 +21,8 @@ autoCollapseToc: true
 math: false
 ---
 
-<!--more-->
-
 Matching Markets sind Märkte, die nicht alleine vom Preis bestimmt sind, sondern in denen Verkäufer und Käufer aufgrund anderer Parameter zusammenfinden. Der „Match“ muss dabei von beiden Seiten aus erfolgen – im Gegensatz zu Commodity-Märkten, wo der Käufer einseitig durch seine Bezahlung die Transaktion auslöst. 
 
-Beispiele für Matching Markets sind Arbeitsmärkte, Immobilienmärkte und vermittlerbasierte Geschäftsmodelle, aber auch viele 
- B2B-Services, wie z. B. Beratungs- oder Finanzdienstleitungen. Das Market-Design und die daraus abgeleitete Marketing-Strategie haben die Aufgabe, die potentiellen Matching-Partner so effizient wie möglich zusammenzubringen, insbesondere auch durch digitale Kommunikation und Kollaboration.
+Beispiele für Matching Markets sind Beratungs- und Finanzdienstleitungen, aber auch viele vermittlerbasierte Geschäftsmodelle. Das Market-Design und die daraus abgeleitete Marketing-Strategie haben die Aufgabe, die potentiellen Matching-Partner so effizient wie möglich zusammenzubringen, ohne dabei einen Partner zu übervorteilen.
 
-In diesem Blog sammle ich meine Gedanken zu den Themen Matching Markets, Market Design und Marketing. 
+In diesem Blog sammle ich meine Gedanken zu den Themen Matching Markets, Market Design und Marketing – insbesondere im B2B-Kontext von digitaler Kommunikation und Kollaboration.
