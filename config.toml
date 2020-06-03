@@ -1,4 +1,4 @@
-baseURL = "https://hugo102.netlify.com/"
+baseURL = "https://www.matching-markets.com/"
 languageCode = "de"                                      # website language
 defaultContentLanguage = "de"                            # [de, en, zh, ...] determines which i18n file to use
 #defaultContentLanguageInSubdir = "true"
