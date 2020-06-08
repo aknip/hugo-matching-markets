@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-### Über Matching Markets!
+### Über Matching Markets
 
 Matching Markets sind Märkte, die nicht alleine vom Preis bestimmt sind, sondern in denen Verkäufer und Käufer aufgrund anderer Parameter zusammenfinden. Der „Match“ muss dabei von beiden Seiten aus erfolgen – im Gegensatz zu Commodity-Märkten, wo der Käufer einseitig durch seine Bezahlung die Transaktion auslöst. 
 
